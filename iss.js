@@ -52,7 +52,7 @@ const fetchISSFlyOverTimes = (coords, callback) => {
   });
 };
 
-const nextISSTimesForMyLocation = ( callback => {
+const nextISSTimesForMyLocation = (callback => {
   fetchMyIp((error, ip) => {
     if (error) {
       console.log("Failed to obtain IP");
